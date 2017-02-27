@@ -1,5 +1,1 @@
-  <div id="graphic"></div>
-  <script type="text/javascript" src="http://assets.motherjones.com/interactives/plugins/pym.js/src/pym.js"></script>
-  <script>
-        var pymParent = new pym.Parent('graphic', 'distribution URL here', {});
-  </script>
+var quiz = jQuery('#quiz').quiz('https://docs.google.com/spreadsheets/d/1cM8bEonY-UztMQ_XlrfrTEL45IEQEjqmHmTRRJOtdSA/pubhtml'); //your published spreadsheet key or URL goes here
